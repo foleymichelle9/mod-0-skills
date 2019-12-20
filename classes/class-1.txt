@@ -1,0 +1,14 @@
+Class: Oven
+
+Attributes:
+ovenOn (boolean)
+clean (boolean)
+currentTemperture (integer)
+settings (array)
+color (string)
+
+Methods:
+startOven (changes ovenOn attribute to TRUE)
+cleanOven (switches clean attribute from FALSE to TRUE)
+preheatOven (changes currentTemperture attribute from 0 to 350)
+ovenBake (changes settings attribute to bake)
