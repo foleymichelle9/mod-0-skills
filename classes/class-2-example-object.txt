@@ -1,0 +1,15 @@
+Class: Frigidare
+
+Attributes:
+color "white"
+lowestTemperature 0
+highestTemperature 50
+totalCapacity 30
+lightOn FALSE
+iceBoxOn TRUE
+
+Methods:
+setTemperature 32 + 8 = 40
+addItem 34 - 1 = 33
+openFridge lightOn = TRUE
+iceBoxOff iceBoxOn = FALSE
