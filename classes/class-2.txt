@@ -1,0 +1,15 @@
+Class: Fridge
+
+Attributes:
+color (string)
+lowestTemperature (integer)
+highestTemperature (integer)
+totalCapacity (integer)
+lightOn (boolean)
+iceBoxOn (boolean)
+
+Methods:
+setTemperature (toggles between highestTemperture and lowestTemperture)
+addItem (subtracts from totalCapacity)
+openFridge (changes lightOn to TRUE)
+iceBoxOff (changes iceBoxOn to FALSE)
