@@ -1,0 +1,14 @@
+Class : Self cleaning oven
+
+Attributes:
+ovenOn FALSE
+clean FALSE
+currentTemperture 0
+settings [bake, preheat, grill, defrost]
+color "black"
+
+Methods:
+startOven ovenOn = TRUE
+cleanOven clean = TRUE
+preheatOven 0 + 350 = 350
+ovenBake bake 
