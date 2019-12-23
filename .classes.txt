@@ -4,11 +4,11 @@ Attributes:
 On (boolean)
 broken (boolean)
 currentTemperture (integer)
-setting (array)
+setting (string)
 color (string)
 
 Methods:
 start (changes On attribute to TRUE)
 repair (switches broken attribute from TRUE to FALSE)
 preheat (changes currentTemperture attribute from 0 to 350)
-setting ("bake")
+changeSetting (changes the setting attribute)
