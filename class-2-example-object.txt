@@ -1,0 +1,14 @@
+Class: Frigidare
+
+Attributes:
+color "white"
+currentTemperature 40
+totalItems 5
+lightOn FALSE
+iceBoxOn TRUE
+
+Methods:
+changeColor "black"
+addItem 5 + 1 = 6
+openFridge lightOn = TRUE
+iceBoxOff iceBoxOn = FALSE
