@@ -1,0 +1,14 @@
+Class : Self cleaning oven
+
+Attributes:
+On FALSE
+broken TRUE
+currentTemperture 0
+setting "bake"
+color "black"
+
+Methods:
+start On = TRUE
+fix broken = FALSE
+preheat 0 + 350 = 350
+changeSetting "preheat" 
