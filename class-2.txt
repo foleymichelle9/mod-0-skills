@@ -1,0 +1,15 @@
+Class: Fridge
+
+Attributes:
+color (string)
+currentTemperature (integer)
+color (string)
+numberOfRacks (integer)
+lightOn (boolean)
+iceBoxOn (boolean)
+
+Methods:
+changeColor (changes the color attribute)
+removeRack (removes 1 from numberOfRacks attribute)
+openFridge (changes lightOn to TRUE)
+iceBoxOff (changes iceBoxOn to FALSE)
